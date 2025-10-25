@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client'
 
 function App() {
   return (
-    <div style={maxWidth: 900, margin: '4rem auto', fontFamily: 'Inter, system-ui, Arial'}>
+    <div style={{maxWidth: 900, margin: '4rem auto', fontFamily: 'Inter, system-ui, Arial'}}>
       <h1>Admin Frontend</h1>
       <p>Welcome! This is the Admin Frontend React app template.</p>
       <ul>

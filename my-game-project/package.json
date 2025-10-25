@@ -5,5 +5,10 @@
     "admin-backend",
     "game-frontend",
     "game-backend"
-  ]
+  ],
+  "scripts": {
+    "build": "npm run build:game-frontend && npm run build:admin-frontend",
+    "build:game-frontend": "cd game-frontend && npm run build",
+    "build:admin-frontend": "cd admin-frontend && npm run build"
+  }
 }
